@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+
+# Ignore model files and large binaries
+*.safetensors
+*.pt
+*.pkl
+*.h5
+*.ckpt
+*.onnx
+*.dll
+*.lib
+*.bin
+*.so
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and outputs
+*.log
+logs/
+outputs/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
